@@ -1,8 +1,3 @@
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
-diff --git a/app_streamlit_auth.py b/app_streamlit_auth.py
-index 7e40415f9b66f8266ab5f2a2ec878937ae57d214..f37f076482411414e37dc834b897fae921506dcc 100644
---- a/app_streamlit_auth.py
-+++ b/app_streamlit_auth.py
 @@ -4,50 +4,72 @@ import pandas as pd
  st.set_page_config(page_title="Arca Reportes", page_icon="📊", layout="wide")
  st.title("📊 Arca Reportes")
